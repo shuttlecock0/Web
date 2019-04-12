@@ -1,0 +1,12 @@
+<body>
+	<h1 id="header">클릭하세요</h1>
+	<script>
+		console.log(this);
+		var header = document.getElementById("header");
+		header.addEventListener('click', function(){
+			alert("클릭했습니다.");
+			console.log(this);
+		});
+		
+	</script>
+</body>

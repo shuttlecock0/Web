@@ -1,0 +1,15 @@
+<body>
+	<h1 id="header">클릭하세요</h1>
+	<script>
+		function headerClick(){
+			alert("클릭했습니다.");
+		}
+		function headerClick2(){
+			alert("또 클릭했습니다.");
+		}
+		
+		var header = document.getElementById("header");
+		header.addEventListener('click', headerClick);
+		header.addEventListener('click', headerClick2);
+	</script>
+</body>

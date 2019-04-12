@@ -1,0 +1,10 @@
+<body>
+	<h1 id="header">마우스 버튼을 누르세요</h1>
+	<script>
+		function mouseDown(event) {
+			alert("x = " + event.clientX + ", y = " + event.clientY);
+		}
+		var header = document.getElementById("header");
+		header.onmousedown = mouseDown;
+	</script>
+</body>

@@ -1,0 +1,11 @@
+<body>
+	<p id="nowtime">현재 시간</p>
+	<script>
+		function tick(){
+			var nowtime=document.getElementById("nowtime");
+			nowtime.innerHTML = (new Date()).toLocaleString();
+		}
+		var timer = setInterval(tick, 1000);
+		tick();
+	</script>
+</body>
